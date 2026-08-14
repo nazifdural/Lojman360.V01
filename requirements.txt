@@ -1,0 +1,16 @@
+fastapi>=0.121,<1
+uvicorn[standard]>=0.35,<1
+sqlalchemy>=2.0,<2.2
+pyodbc>=5.2,<6
+aioodbc>=0.5,<1
+jinja2>=3.1,<4
+pydantic-settings>=2.10,<3
+python-dotenv>=1.1,<2
+itsdangerous>=2.2,<3
+python-multipart>=0.0.20,<1
+argon2-cffi>=23.1,<26
+# Dis aktarim parolalarini sifreler (app/gizleme.py).
+# argon2 ile karistirmayin: o dogrulama icin hash uretir,
+# bu geri COZULEBILIR sifreleme yapiyor.
+cryptography>=42.0,<47
+openpyxl>=3.1,<4
